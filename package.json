@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {
-    "start:dev": "nodemon server.js",
+    "start": "nodemon server.js",
     "start:prod": "SET NODE_ENV=production&&nodemon server.js"
   },
   "author": "Anando Sharma",
@@ -20,7 +20,10 @@
     "eslint-plugin-prettier": "^5.2.3",
     "eslint-plugin-react": "^7.37.4",
     "express": "^4.21.2",
+    "mongodb": "^6.13.0",
+    "mongoose": "^5.13.23",
     "morgan": "^1.10.0",
+    "nodemon": "^3.1.9",
     "prettier": "^3.4.2"
   }
 }
